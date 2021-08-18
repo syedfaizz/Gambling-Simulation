@@ -14,9 +14,9 @@ namespace Gambling_simulation
             Random random = new Random();
             int stake = random.Next(1, 3);
             if (stake == WIN)
-                Console.WriteLine("Playe win the game");
+                Console.WriteLine("Player win the game");
             else
-                Console.WriteLine("Playe loss the game");
+                Console.WriteLine("Player loss the game");
         }
     }
 }
